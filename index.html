@@ -27,7 +27,7 @@ h1 span{color:#c0392b;}
 main{max-width:960px;margin:0 auto;padding:48px 24px 64px;}
 .eyebrow{font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#2d2d2d;border:2px solid #2d2d2d;display:inline-flex;align-items:center;padding:5px 16px;border-radius:20px;margin-bottom:18px;}
 
-/* PLANS */
+/* ── PLANS — layout horizontal avec colonnes alignées ── */
 .plans{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;align-items:start;}
 .plan{border-radius:14px;overflow:hidden;background:#fff;border:1.5px solid #e0e0e0;}
 .plan-ribbon{background:#c0392b;color:#fff;font-size:8.5px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-align:center;padding:7px 16px;}
@@ -40,6 +40,7 @@ main{max-width:960px;margin:0 auto;padding:48px 24px 64px;}
 .plan-pill{background:#f0f0f0;border:1.5px solid #ddd;color:#555;font-size:9px;font-weight:700;letter-spacing:1px;padding:3px 10px;border-radius:20px;display:inline-block;margin-left:4px;}
 .plan-tag{font-size:10.5px;font-weight:600;color:#888;margin-top:4px;}
 
+/* Tableau interne au plan — chaque ligne bien alignée */
 .plan-table{width:100%;border-collapse:collapse;margin:0;}
 .plan-table tr{border-top:1px solid #f2f2f2;}
 .plan-table tr:first-child{border-top:1px solid #e8e8e8;}
@@ -51,6 +52,7 @@ main{max-width:960px;margin:0 auto;padding:48px 24px 64px;}
 .pt-section{background:#f9f9f9;}
 .pt-section td{padding:7px 24px 4px;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;border-top:2px solid #ebebeb;}
 
+/* Fidélité dans le plan */
 .plan-loyalty{margin:0;padding:12px 24px 16px;}
 .loyalty-title{font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;margin-bottom:8px;}
 .loyalty-row{display:flex;align-items:flex-start;gap:10px;padding:6px 0;border-bottom:1px solid #f2f2f2;}
@@ -64,6 +66,7 @@ main{max-width:960px;margin:0 auto;padding:48px 24px 64px;}
 .photos-note strong{color:#2d2d2d;}
 .photos-note .sep{display:block;margin-top:6px;color:#aaa;font-size:10.5px;}
 
+/* IMAGE DIVIDER */
 .img-divider{border-radius:14px;overflow:hidden;margin:24px 0;height:140px;background:#2d2d2d;}
 .img-divider img{width:100%;height:100%;object-fit:cover;object-position:center 40%;opacity:.85;}
 
@@ -115,7 +118,6 @@ td:first-child{color:#2d2d2d;font-weight:600;}
 .opt-note{font-size:9.5px;color:#aaa;margin-top:2px;}
 .opt-price{font-size:14px;font-weight:800;color:#2d2d2d;white-space:nowrap;}
 .opt-price.sm{font-size:11px;font-weight:600;color:#aaa;}
-.opt-price.deal{font-size:14px;font-weight:800;color:#c0392b;white-space:nowrap;}
 .opt-link{display:block;padding:10px 18px 16px;font-size:9.5px;font-weight:700;color:#c0392b !important;}
 .opt-link:hover{text-decoration:underline;color:#c0392b !important;}
 
@@ -202,7 +204,7 @@ footer{background:#2d2d2d;color:#fff;}
       <tr><td class="pt-label">Photos livrées</td><td class="pt-val"><strong>25 photos</strong> HD retouchées</td></tr>
       <tr><td class="pt-label">Drone</td><td class="pt-val">Inclus — selon conditions & réglementations</td></tr>
       <tr class="pt-section"><td colspan="2">Vidéo & production</td></tr>
-      <tr><td class="pt-label">Reels</td><td class="pt-val"><strong>3×15s</strong> ou <strong>1×30s & 1×15s</strong><span class="equiv">Format ≤ 30s · ≈ 6–10h de montage</span></td></tr>
+      <tr><td class="pt-label">Reels</td><td class="pt-val"><strong>3×15s</strong> ou <strong>1×30s & 1×15s</strong><span class="equiv">Format ≤ 25s · ≈ 6–10h de montage</span></td></tr>
       <tr><td class="pt-label">Finition</td><td class="pt-val">Sous-titres optimisés & logo animé</td></tr>
       <tr><td class="pt-label">Musique</td><td class="pt-val">Sous licence — banque disponible</td></tr>
       <tr class="pt-section"><td colspan="2">Livraison & droits</td></tr>
@@ -240,7 +242,7 @@ footer{background:#2d2d2d;color:#fff;}
       <tr><td class="pt-label">Photos livrées</td><td class="pt-val"><strong>50 photos</strong> HD retouchées</td></tr>
       <tr><td class="pt-label">Drone</td><td class="pt-val">Inclus — selon conditions & réglementations</td></tr>
       <tr class="pt-section"><td colspan="2">Vidéo & production</td></tr>
-      <tr><td class="pt-label">Reels</td><td class="pt-val"><strong>4×15s & 1×30s</strong><span class="equiv">Format ≤ 30s · ≈ 10–16h de montage</span></td></tr>
+      <tr><td class="pt-label">Reels</td><td class="pt-val"><strong>4×15s & 1×30s</strong><span class="equiv">Format ≤ 25s · ≈ 10–16h de montage</span></td></tr>
       <tr><td class="pt-label">Finition</td><td class="pt-val">Sous-titres optimisés & logo animé</td></tr>
       <tr><td class="pt-label">Musique</td><td class="pt-val">Sous licence — banque disponible</td></tr>
       <tr class="pt-section"><td colspan="2">Livraison & droits</td></tr>
@@ -284,7 +286,7 @@ footer{background:#2d2d2d;color:#fff;}
     <tbody>
       <tr><td>Shooting sur place</td><td>2 heures</td><td class="td-red">4 heures</td></tr>
       <tr><td>Photos HD retouchées</td><td>25 photos</td><td class="td-red">50 photos</td></tr>
-      <tr><td>Reels cinématiques ≤ 30s</td><td>3×15s ou 1×30s+1×15s</td><td class="td-red">4×15s & 1×30s</td></tr>
+      <tr><td>Reels cinématiques ≤ 25s</td><td>3×15s ou 1×30s+1×15s</td><td class="td-red">4×15s & 1×30s</td></tr>
       <tr><td>Drone</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr>
       <tr><td>Sous-titres & logo animé</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr>
       <tr><td>Musique sous licence</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr>
@@ -335,34 +337,14 @@ footer{background:#2d2d2d;color:#fff;}
 <!-- OPTIONS -->
 <div class="eyebrow">Options à la carte</div>
 <div class="options">
-
-  <!-- PHOTOS ADDITIONNELLES — nouveaux prix -->
   <div class="opt">
     <div class="opt-head"><div class="opt-icon">📸</div><div class="opt-label">Photos additionnelles</div></div>
     <div class="opt-body">
-      <div class="opt-row">
-        <div>
-          <div class="opt-name">+15 photos HD retouchées</div>
-          <div class="opt-note">Ajoutées à votre album · même livraison</div>
-        </div>
-        <div class="opt-price deal">+100$</div>
-      </div>
-      <div class="opt-row">
-        <div>
-          <div class="opt-name">+30 photos HD retouchées</div>
-          <div class="opt-note">Meilleure valeur · 6,67$/photo</div>
-        </div>
-        <div class="opt-price deal">+200$</div>
-      </div>
-      <div class="opt-row">
-        <div>
-          <div class="opt-name" style="color:#888;">Produits · studio · spécialisé</div>
-          <div class="opt-note">Sur soumission séparée</div>
-        </div>
-      </div>
+      <div class="opt-row"><div><div class="opt-name">+15 photos</div><div class="opt-note">Dans votre album</div></div><div class="opt-price">300$</div></div>
+      <div class="opt-row"><div><div class="opt-name">+25 photos</div><div class="opt-note">Dans votre album</div></div><div class="opt-price">500$</div></div>
+      <div class="opt-row"><div><div class="opt-name" style="color:#888;">Produits · studio · spécialisé</div><div class="opt-note">Sur soumission séparée</div></div></div>
     </div>
   </div>
-
   <div class="opt">
     <div class="opt-head"><div class="opt-icon">🎬</div><div class="opt-label">Banques d'heures de montage</div></div>
     <div class="opt-body">
@@ -372,7 +354,6 @@ footer{background:#2d2d2d;color:#fff;}
     </div>
     <a class="opt-link" href="https://www.mediamauricie.com/banques-dheures" target="_blank">→ Calculer la production de reels additionnels</a>
   </div>
-
   <div class="opt">
     <div class="opt-head"><div class="opt-icon">📁</div><div class="opt-label">Fichiers bruts & colorisation</div></div>
     <div class="opt-body">
@@ -381,7 +362,6 @@ footer{background:#2d2d2d;color:#fff;}
       <div class="opt-row"><div><div class="opt-name" style="color:#888;">Colorisation des fichiers</div><div class="opt-note">Sur demande — calculer via banques d'heures</div></div><div class="opt-price sm">Sur demande</div></div>
     </div>
   </div>
-
 </div>
 
 <!-- CONDITIONS -->
@@ -443,7 +423,7 @@ footer{background:#2d2d2d;color:#fff;}
       <div>
         <p class="footer-col-title">Contact</p>
         <ul class="footer-links">
-          <li><a href="mailto:info@mediamauricie.com">info@mediamauricie.com</a></li>
+          <li><a href="/cdn-cgi/l/email-protection#4821262e2708252d2c212925293d3a212b212d662b2725"><span class="__cf_email__" data-cfemail="7f161119103f121a1b161e121e0a0d161c161a511c1012">[email&#160;protected]</span></a></li>
           <li><a href="https://www.mediamauricie.com" target="_blank">www.mediamauricie.com</a></li>
           <li><span>(819) 852-0851</span></li>
         </ul>
@@ -454,10 +434,4 @@ footer{background:#2d2d2d;color:#fff;}
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© Média Mauricie Inc. 2025 · Victoria J. Polsoni, Présidente-fondatrice</p>
-    </div>
-  </div>
-</footer>
-
-</body>
-</html>
+      <p
